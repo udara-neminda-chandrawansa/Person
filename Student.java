@@ -6,9 +6,12 @@ public class Student extends Person{
         this.StudentID = StudentID;
     }
 
+    public void displayStudentInfo(){
+        System.out.println(this.StudentID + " is ");
+    }
+
     public static void main(String[] args) {
         Student s = new Student("Udara", 22, 2002);
         s.displayFullName();
-        System.out.println(s.StudentID);
     }
 }

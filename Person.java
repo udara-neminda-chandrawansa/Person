@@ -10,7 +10,7 @@ public class Person {
     }
     
     public void displayFullName(){
-        System.out.println(this.name + " " + " is " + this.age + " years old.");
+        System.out.println(this.name + " is " + this.age + " years old.");
     }
 
     public static void main(String[] args) {
