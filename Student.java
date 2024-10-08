@@ -11,7 +11,7 @@ public class Student extends Person{
     }
 
     public static void main(String[] args) {
-        Student s = new Student("Udara", 22, 2002);
+        Student s = new Student("Yasas", 22, 2002);
         s.displayFullName();
     }
 }
